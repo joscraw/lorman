@@ -4,7 +4,7 @@ SETUP WITHOUT VAGRANT
 Composer, PHP and Mailhog hvae been added to the ./bin directory that way this project
 can be run from your local machine without the need of Vagrant. 
 
-1. $ git clone git@bitbucket.org:joshcrawmer4/php-contact-form.git
+1. $ git clone git@github.com:joscraw/lorman.git
 2. $ cd $PROJECT_ROOT  
 3. $ ./bin/composer install
 4. $ vendor/bin/phinx migrate -e development
@@ -37,7 +37,7 @@ SETUP WITH VAGRANT
 https://www.vagrantup.com/downloads.html
 2. Head over to virtual box and download and install the latest version for your sytem
 https://www.virtualbox.org/wiki/Downloads
-3. $ git clone git@bitbucket.org:joshcrawmer4/php-contact-form.git
+3. $ git clone git@github.com:joscraw/lorman.git
 4. $ cd $PROJECT_ROOT 
 5. $ cp ./phpunit.xml.dist ./phpunit.xml
 6. Open up ./phpunit.xml and Change <server name="BASE_URL" value="http://0.0.0.0:8888/"/> to <server name="BASE_URL" value="http://192.168.56.108:9999/"/> on line 9

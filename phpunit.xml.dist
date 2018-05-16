@@ -1,0 +1,11 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Project Test Suite">
+            <directory>src/Tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <server name="BASE_URL" value="http://0.0.0.0:8888/"/>
+    </php>
+</phpunit>
